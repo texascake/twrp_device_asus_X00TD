@@ -1,12 +1,10 @@
-# ADB
-ro.adb.secure=0
-
-rp.usb_host=1
-
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 vendor.gatekeeper.is_security_level_spu=0
 
+persist.asus.led.on=1
+persist.fuse_sdcard=true
+rp.usb_host=1
 sys.usb.controller=a800000.dwc3
 sys.usb.rndis.func.name=rndis_bam
 sys.usb.rmnet.func.name=rmnet_bam
